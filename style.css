@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(249, 237, 246);
+    margin: 50px;
+    font-family: Times New Roman;
+    align-items: center;
+}
+.container {
+    background-color: #499949c2;
+    background: url('images/back.jpg');
+
+    max-width: 600px;
+    height: 450px;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+
+}
+p {
+    color: rgb(234, 217, 234);
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.digits {
+    font-size: 70px;
+    color: papayawhip;
+}
+.text {
+    font-size: 20px;
+    color: rgb(15, 203, 255);
+    font-weight: bold;
+}
+#buttons {
+    margin-top: 35px;
+}
+.btn1, .btn2, .btn3 {
+    width: 90px;
+    height: 50px;
+    padding: 8px 5px 8px 2px;
+    margin: 10px 25px 20px 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.7s;
+    color: white;
+    font-weight: 550;
+    border: 0;
+    font-family: Times new Roman;
+}
+.btn1:hover, .btn2:hover, .btn3:hover{
+    color: rgb(56, 146, 56);
+}
+#start {
+    background-color: rgb(9, 160, 62);
+}
+#stop {
+    background-color: rgb(182, 37, 62);
+}
+#reset {
+    background-color: rgb(229, 190, 19);
+}
+#start:hover, #stop:hover, #reset:hover  {
+    background-color: white;
+}
